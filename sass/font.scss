@@ -1,0 +1,38 @@
+@font-face {
+    font-family: happy-times;
+    src: url(/fonts/happy-times-NG_regular_master.otf);
+}
+@font-face {
+    font-family: happy-times;
+    src: url(/fonts/happy-times-NG_bold_master.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: happy-times;
+    src: url(/fonts/happy-times-NG_italic_master.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: lack;
+    src: url(/fonts/Lack-Italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: lack;
+    src: url(/fonts/Lack-Regular.otf);
+}
+@font-face {
+    font-family: lack-line;
+    src: url(/fonts/Lack-Line-Regular.otf);
+}
+@font-face {
+    font-family: lack-line;
+    src: url(/fonts/Lack-Line-Italic.otf);
+    font-style: italic;
+}
+$font: (happy-times, lack, lack-line);
+@each $font-family in $font {
+    .font-#{$font-family}{
+        font-family: #{$font-family};
+    }
+}

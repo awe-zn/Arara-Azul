@@ -1,0 +1,527 @@
+@charset "UTF-8";
+@font-face {
+  font-family: happy-times;
+  src: url(/fonts/happy-times-NG_regular_master.otf);
+}
+@font-face {
+  font-family: happy-times;
+  src: url(/fonts/happy-times-NG_bold_master.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: happy-times;
+  src: url(/fonts/happy-times-NG_italic_master.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: lack;
+  src: url(/fonts/Lack-Italic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: lack;
+  src: url(/fonts/Lack-Regular.otf);
+}
+@font-face {
+  font-family: lack-line;
+  src: url(/fonts/Lack-Line-Regular.otf);
+}
+@font-face {
+  font-family: lack-line;
+  src: url(/fonts/Lack-Line-Italic.otf);
+  font-style: italic;
+}
+.font-happy-times {
+  font-family: happy-times;
+}
+
+.font-lack {
+  font-family: lack;
+}
+
+.font-lack-line {
+  font-family: lack-line;
+}
+
+.text-laranja {
+  color: #e65945;
+}
+
+.text-laranja-light {
+  color: #ec563f;
+}
+
+.text-blue-light {
+  color: #c8ece8;
+}
+
+.text-laranja-opacity {
+  color: #ffaa9b5e;
+}
+
+.text-blue-light2 {
+  color: #1f97c9;
+}
+
+.text-blue-light3 {
+  color: #81c9e1;
+}
+
+.bg-laranja {
+  background-color: #e65945;
+}
+
+.bg-laranja-light {
+  background-color: #ec563f;
+}
+
+.bg-blue-light {
+  background-color: #c8ece8;
+}
+
+.bg-laranja-opacity {
+  background-color: #ffaa9b5e;
+}
+
+.bg-blue-light2 {
+  background-color: #1f97c9;
+}
+
+.bg-blue-light3 {
+  background-color: #81c9e1;
+}
+
+.fz-24 {
+  font-size: 1.5em;
+}
+
+.fz-35 {
+  font-size: 2.1875em;
+}
+
+.fz-28 {
+  font-size: 1.75em;
+}
+
+.fz-32 {
+  font-size: 2em;
+}
+
+.fz-40 {
+  font-size: 2.5em;
+}
+
+.fz-45 {
+  font-size: 2.8125em;
+}
+
+.fz-48 {
+  font-size: 3em;
+}
+
+.fz-51 {
+  font-size: 3.1875em;
+}
+
+.fz-60 {
+  font-size: 3.75em;
+}
+
+.fz-80 {
+  font-size: 5em;
+}
+
+.fz-96 {
+  font-size: 6em;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.pt-70 {
+  padding-top: 70px !important;
+}
+
+.pt-80 {
+  padding-top: 80px !important;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+.ps-10 {
+  padding-left: 10px !important;
+}
+
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.me-100 {
+  margin-right: 100px !important;
+}
+
+.ms-100 {
+  margin-left: 100px !important;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.ls-10 {
+  letter-spacing: 10px;
+}
+
+.pe-35-porcent {
+  padding-right: 35%;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.315);
+}
+
+.lh-2 {
+  line-height: 90%;
+}
+
+.inicio {
+  min-height: 665px;
+  background: url(/img/Ativo-2.png) no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+.inicio .inicio-header .logo img {
+  width: 15em;
+  filter: drop-shadow(1px 1px 15px rgba(0, 0, 0, 0.521));
+}
+.inicio .inicio-header .social-media img {
+  width: 2.8em;
+}
+
+.desapegue {
+  min-height: 635px;
+  background: url(/img/Ativo-8.png) no-repeat;
+  background-position: -70px 50%;
+}
+.desapegue .destaque-desapegue::after {
+  content: "desapegue";
+  position: absolute;
+  top: 0;
+  right: 35%;
+  color: #ffaa9b5e;
+  font-size: 1.3em;
+}
+
+.nuvem-words {
+  min-height: 400px;
+}
+.nuvem-words .bg {
+  background: url(/img/bg-words.svg) no-repeat;
+  background-position: center;
+}
+
+.equipe {
+  background: url(/img/Ativo-3.svg) no-repeat;
+  background-position: 50% 50%;
+  background-size: 90% auto;
+}
+.equipe .equipe-titulo h2::after {
+  content: "QUEM FAZ A ARARA";
+  opacity: 0.2;
+  position: absolute;
+  font-size: 1.22em;
+  display: block;
+  left: 0;
+  bottom: 3px;
+}
+
+.porque {
+  min-height: 800px;
+  background: url(/img/Ativo-6.png) no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+.porque .porque-desapegar h2:after {
+  content: "POR QUE DESAPEGAR?";
+  color: #ec563f;
+  position: absolute;
+  font-size: 0.95em;
+  display: block;
+  left: 0.2em;
+  top: -0.1em;
+}
+
+.vem-para-arara {
+  min-height: 1000px;
+}
+.vem-para-arara .passos:nth-child(even):before {
+  content: "";
+  border-right: 2px dashed rgba(255, 255, 255, 0.466);
+  border-radius: 50%;
+  width: 50px;
+  height: 215%;
+  transform: rotateZ(-60deg);
+  z-index: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 48%;
+}
+.vem-para-arara .passos:nth-child(odd):not(.row:last-child):before {
+  content: "";
+  border-left: 2px dashed rgba(255, 255, 255, 0.466);
+  border-radius: 50%;
+  width: 50px;
+  height: 215%;
+  transform: rotateZ(60deg);
+  z-index: 0;
+  display: block;
+  position: absolute;
+  top: -5%;
+  left: 48%;
+}
+.vem-para-arara img {
+  width: 5em;
+  z-index: 3;
+}
+.vem-para-arara h2:after {
+  content: "#VEMPARAARARA";
+  opacity: 0.2;
+  position: absolute;
+  font-size: 1.1em;
+  display: block;
+  left: 0;
+  top: 0;
+}
+
+.contato {
+  min-height: 600px;
+  background: url(/img/Ativo-7.png) no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+.contato .contato-h2-1:after {
+  content: "CADASTRE-SE E RECEBA";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  position: absolute;
+  font-size: 1.05em;
+  opacity: 0.6;
+  display: block;
+  right: 0;
+  top: 0;
+}
+.contato .contato-h2-2:after {
+  content: "PARA SEU PRIMEIRO VOO!";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  position: absolute;
+  font-size: 1.05em;
+  opacity: 0.6;
+  display: block;
+  right: 0;
+  top: 0;
+}
+.contato form input {
+  outline: 0;
+  border: 0;
+}
+.contato form input::-webkit-input-placeholder {
+  opacity: 0.8;
+  font-size: 1.1em;
+}
+.contato form button {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.322);
+}
+
+.dados {
+  min-height: 245px;
+}
+.dados .endereços img {
+  width: 2.5em;
+}
+.dados .redes-sociais img {
+  width: 5em;
+}
+
+.mapa iframe {
+  width: 100%;
+}
+
+footer {
+  min-height: 140px;
+}
+footer p {
+  opacity: 0.7;
+}
+footer .midias img {
+  width: 2.5em;
+}
+
+@media (max-width: 1200px) {
+  .destaque-desapegue {
+    font-size: 5em;
+  }
+}
+@media (max-width: 992px) {
+  .destaque-desapegue {
+    font-size: 4em;
+  }
+
+  .desapegue {
+    background-size: 300px auto;
+  }
+
+  .inicio .inicio-header {
+    font-size: 0.7rem;
+  }
+  .inicio .inicio-content {
+    font-size: 0.75rem;
+  }
+  .inicio .inicio-content h2 {
+    padding-right: 25%;
+  }
+
+  .dados {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 767px) {
+  .desapegue {
+    background-size: 200px auto;
+    background-position: -70px 20px;
+  }
+
+  .destaque-desapegue {
+    font-size: 3em;
+  }
+
+  .destaque-desapegue::after {
+    right: -100px;
+  }
+
+  .me-100, .ms-100 {
+    margin: 0 !important;
+  }
+
+  .vem-para-arara .passos:nth-child(even):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    border-right: 0;
+    height: 150%;
+    transform: rotateZ(-50deg);
+    top: 2%;
+  }
+  .vem-para-arara .passos:nth-child(odd):not(.row:last-child):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    height: 180%;
+    transform: rotateZ(50deg);
+    top: 5%;
+  }
+}
+@media (max-width: 576px) {
+  .inicio .inicio-header {
+    font-size: 0.6rem;
+  }
+
+  .destaque-desapegue {
+    display: none;
+  }
+
+  .desapegue {
+    background-size: 180px auto;
+  }
+  .desapegue .destaque-content h2 {
+    font-size: 2em;
+  }
+
+  .equipe .equipe-titulo h2 {
+    font-size: 32px;
+  }
+
+  .porque .porque-desapegar {
+    font-size: 0.75rem;
+  }
+
+  .vem-para-arara {
+    font-size: 0.7rem;
+  }
+
+  .contato form button {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 425px) {
+  .vem-para-arara .passos:nth-child(even):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    border-right: 0;
+    height: 180%;
+    transform: rotateZ(-60deg);
+    top: 2%;
+    left: 45%;
+  }
+  .vem-para-arara .passos:nth-child(odd):not(.row:last-child):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    height: 180%;
+    transform: rotateZ(60deg);
+    top: 5%;
+    left: 45%;
+  }
+}
+@media (max-width: 375px) {
+  .vem-para-arara .passos:nth-child(even):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    border-right: 0;
+    height: 150%;
+    transform: rotateZ(-50deg);
+    top: 2%;
+    left: 43%;
+  }
+  .vem-para-arara .passos:nth-child(odd):not(.row:last-child):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    height: 160%;
+    transform: rotateZ(60deg);
+    top: 9%;
+    left: 43%;
+  }
+}
+@media (max-width: 320px) {
+  .vem-para-arara .passos:nth-child(even):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    border-right: 0;
+    height: 150%;
+    transform: rotateZ(-45deg);
+    top: 2%;
+    left: 43%;
+  }
+  .vem-para-arara .passos:nth-child(odd):not(.row:last-child):before {
+    border-left: 2px dashed rgba(255, 255, 255, 0.466);
+    height: 155%;
+    transform: rotateZ(50deg);
+    top: 12%;
+    left: 43%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+
+
+$color: (
+    'laranja': #e65945,
+    'laranja-light':#ec563f,
+    'blue-light':#c8ece8,
+    'laranja-opacity':#ffaa9b5e,
+    'blue-light2':#1f97c9,
+    'blue-light3':#81c9e1
+);
+@each $name-color, $valor-color in $color {
+    .text-#{$name-color}{
+        color: #{$valor-color};
+    }
+}
+@each $name-color, $valor-color in $color {
+    .bg-#{$name-color}{
+        background-color: #{$valor-color};
+    }
+}

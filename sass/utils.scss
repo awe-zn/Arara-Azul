@@ -1,0 +1,49 @@
+$font-size: (24,35,28,32,40,45,48,51,60,80,96);
+$font-weight: (400, 500, 600);
+$padding-top:(70, 80,100);
+$padding-left:(10);
+$padding-bottom:(100);
+$margin-top:(100);
+$margin-right:(100);
+$margin-left:(100);
+
+@each $font in $font-size {
+    .fz-#{$font}{
+        font-size: #{$font/16}em;
+    }
+}
+@each $weight in $font-weight {
+    .fw-#{$weight}{
+        font-weight: #{$weight} !important;
+    }
+}
+@each $top in $padding-top {
+    .pt-#{$top}{
+        padding-top: #{$top}px !important;
+    }
+}
+@each $left in $padding-left {
+    .ps-#{$left}{
+        padding-left: #{$left}px !important;
+    }
+}
+@each $bottom in $padding-bottom {
+    .pb-#{$bottom}{
+        padding-bottom: #{$bottom}px !important;
+    }
+}
+@each $top in $margin-top {
+    .mt-#{$top}{
+        margin-top: #{$top}px !important;
+    }
+}
+@each $right in $margin-right {
+    .me-#{$right}{
+        margin-right: #{$right}px !important;
+    }
+}
+@each $left in $margin-left {
+    .ms-#{$left}{
+        margin-left: #{$left}px !important;
+    }
+}
