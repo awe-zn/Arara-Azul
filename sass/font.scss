@@ -13,6 +13,15 @@
     font-style: italic;
 }
 @font-face {
+    font-family: happy-times-ikob;
+    src: url(/fonts/happy-times-at-the-ikob.regular.otf);
+}
+@font-face {
+    font-family: happy-times-ikob;
+    src: url(/fonts/happy-times-at-the-ikob.italic.otf);
+    font-style: italic;
+}
+@font-face {
     font-family: lack;
     src: url(/fonts/Lack-Italic.otf);
     font-style: italic;
@@ -26,11 +35,31 @@
     src: url(/fonts/Lack-Line-Regular.otf);
 }
 @font-face {
+    font-family: poppins-medium;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-regular;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-extra-bold-italic;
+    src: url(/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: poppins-bold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppins-semi-bold-italic;
+    src: url(/fonts/Poppins-SemiBoldItalic.ttf);
+}
+@font-face {
     font-family: lack-line;
     src: url(/fonts/Lack-Line-Italic.otf);
     font-style: italic;
 }
-$font: (happy-times, lack, lack-line);
+$font: (happy-times, lack, lack-line, happy-times-ikob, poppins-medium,poppins-regular,poppins-extra-bold-italic,poppins-bold,poppins-semi-bold-italic);
 @each $font-family in $font {
     .font-#{$font-family}{
         font-family: #{$font-family};

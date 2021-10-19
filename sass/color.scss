@@ -5,8 +5,9 @@ $color: (
     'laranja-light':#ec563f,
     'blue-light':#c8ece8,
     'laranja-opacity':#ffaa9b5e,
-    'blue-light2':#1f97c9,
-    'blue-light3':#81c9e1
+    'blue-light2':#21a1d8,
+    'blue-light3':#81c9e1,
+    'white-op': rgba(255,255,255,0.9)
 );
 @each $name-color, $valor-color in $color {
     .text-#{$name-color}{
